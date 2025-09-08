@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clip 4 Pump — Growth Through Clipping</title>
+  <meta name="description" content="We power your short‑form growth with vetted clippers, clear guidelines, and real analytics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--green:#19c37d;--green-600:#11a36a;--ink:#0b1115;--muted:#64748b;--bg:#f8faf9;--card:#ffffff;--ring:rgba(25,195,125,.25)}
+    *{box-sizing:border-box} html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+    a{color:var(--ink);text-decoration:none} .container{max-width:1120px;margin:0 auto;padding:0 20px}
+    header{position:sticky;top:0;z-index:50;background:rgba(248,250,249,.85);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid #e6ece8}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:18px}
+    .brand-badge{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--green),#e6fff4);display:grid;place-items:center;box-shadow:0 4px 24px var(--ring);animation:float 6s ease-in-out infinite}
+    .brand-badge svg{width:22px;height:22px} nav .link{padding:10px 12px;border-radius:10px;font-weight:600} nav .link:hover{background:#ecfdf5}
+    .cta{padding:10px 14px;border-radius:12px;background:var(--ink);color:#fff;font-weight:700}.cta:hover{background:#111827}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+    .hero{padding:96px 0;background:radial-gradient(800px 300px at 30% 0%,#e9fff5 0%,transparent 60%),radial-gradient(800px 300px at 80% 10%,#e9fff5 0%,transparent 60%)}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:32px;align-items:center} h1{font-size:48px;line-height:1.05;letter-spacing:-.02em;margin:0 0 16px}
+    .lead{font-size:18px;color:var(--muted);margin:0 0 24px} .hero-card{background:var(--card);border:1px solid #e6ece8;border-radius:20px;padding:18px;box-shadow:0 10px 35px rgba(0,0,0,.05)}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px} .stat{background:var(--card);border:1px solid #e6ece8;border-radius:16px;padding:18px;text-align:center} .stat .num{font-weight:800;font-size:28px}
+    section{padding:72px 0} h2{font-size:28px;margin:0 0 12px} p{line-height:1.6} .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:20px}
+    .card{background:var(--card);border:1px solid #e6ece8;border-radius:16px;padding:18px} .check{display:flex;gap:10px;align-items:flex-start;margin:10px 0} .check svg{flex:0 0 auto;margin-top:3px}
+    .clients{display:grid;grid-template-columns:repeat(6,1fr);gap:16px} .client{background:#f1f5f3;border:1px dashed #cfe7dc;border-radius:12px;display:grid;place-items:center;height:72px;color:#0b3d2a;font-weight:700}
+    .contact-card{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;background:var(--card);border:1px solid #e6ece8;border-radius:20px;padding:24px}
+    input,textarea{width:100%;padding:12px 14px;border:1px solid #e6ece8;border-radius:12px;background:#fbfefc} textarea{min-height:120px;resize:vertical}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;background:var(--green);color:#0a1f16;font-weight:800;border:1px solid #0bb26c33}.btn:hover{background:var(--green-600);color:white}
+    footer{padding:40px 0;border-top:1px solid #e6ece8;color:#334155}.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;background:#ecfdf5;border:1px solid #c7f4df;font-weight:700}.muted{color:var(--muted)}
+    @media(max-width:1000px){.hero-grid{grid-template-columns:1fr}.contact-card{grid-template-columns:1fr}.clients{grid-template-columns:repeat(3,1fr)}.cards{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr 1fr}}
+    @media(max-width:600px){.stats{grid-template-columns:1fr 1fr}.clients{grid-template-columns:repeat(2,1fr)} h1{font-size:38px} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="brand-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 7h14v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7z" stroke="currentColor" stroke-width="1.5"/><path d="M8 7a4 4 0 1 1 8 0" stroke="currentColor" stroke-width="1.5"/></svg>
+        </div> Clip 4 Pump
+      </div>
+      <nav>
+        <a class="link" href="#home">Home</a>
+        <a class="link" href="#about">About</a>
+        <a class="link" href="#features">Features</a>
+        <a class="link" href="#clients">Clients</a>
+        <a class="link" href="https://discord.gg/clip4pump" target="_blank" rel="noopener">Discord</a>
+        <a class="cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="pill">Short‑form growth engine</span>
+        <h1>Clipping that drives <span style="color:var(--green)">real reach</span>.</h1>
+        <p class="lead">We connect creators and brands with vetted clippers, clear guidelines, and transparent analytics—so your content lands on For You pages, not lost feeds.</p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap">
+          <a class="btn" href="https://discord.gg/clip4pump" target="_blank" rel="noopener">Get Started</a>
+          <a class="link" href="#features">See Features →</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="num" id="v">10B+</div><div class="muted">Views tracked</div></div>
+          <div class="stat"><div class="num" id="s">30+</div><div class="muted">Clipping Servers</div></div>
+          <div class="stat"><div class="num" id="c">5K+</div><div class="muted">Clippers</div></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="assets/mock-dashboard.svg" alt="Analytics preview" style="width:100%;display:block;border-radius:14px;border:1px solid #e6ece8"/>
+        <div style="display:flex;gap:10px;margin-top:12px">
+          <div class="pill">Views, Likes, Comments</div>
+          <div class="pill">Fraud detection</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section id="about">
+    <div class="container">
+      <h2>What We Do</h2>
+      <p>Clip 4 Pump maintains a curated network of experienced editors who specialize in transforming long‑form streams, podcasts, and product videos into scroll‑stopping short‑form clips. We set up brand‑safe guidelines, voice/tone, and visual templates, then manage the flow so you can stay focused on creating.</p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Creator & Brand Onboarding</h3>
+          <div class="check"><svg width="18" height="18" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2"/></svg><div>Clear playbooks for editing style, captions, aspect ratios, and posting cadence.</div></div>
+          <div class="check"><svg width="18" height="18" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2"/></svg><div>Brand‑safe guardrails and examples that align with your goals.</div></div>
+        </div>
+        <div class="card">
+          <h3>Managed Clipping Network</h3>
+          <div class="check"><svg width="18" height="18" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2"/></svg><div>Access a roster of vetted clippers across gaming, tech, business, and lifestyle.</div></div>
+          <div class="check"><svg width="18" height="18" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2"/></svg><div>Flexible capacity for launches, tours, or product pushes.</div></div>
+        </div>
+        <div class="card">
+          <h3>Analytics & QA</h3>
+          <div class="check"><svg width="18" height="18" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2"/></svg><div>Dashboards track views, engagement, and retention across platforms.</div></div>
+          <div class="check"><svg width="18" height="18" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2"/></svg><div>Signals for artificial boosts detect suspicious spikes and viewbotting.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" style="background:linear-gradient(0deg,#f2fbf6,transparent)">
+    <div class="container">
+      <h2>How Clip 4 Pump helps</h2>
+      <p class="muted">We combine human craft with automation so your best moments travel farther.</p>
+      <div class="cards">
+        <div class="card"><h3>End‑to‑End Workflow</h3><p>From raw timestamps to polished exports and scheduled posts, our coordinators drive the pipeline.</p></div>
+        <div class="card"><h3>Multi‑Platform Ready</h3><p>Deliverables for TikTok, YouTube Shorts, Reels, X, and more—with per‑platform caption presets.</p></div>
+        <div class="card"><h3>Rights‑Respecting</h3><p>We only use assets you supply or authorize. No scraping, no reuse without permission.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="clients">
+    <div class="container">
+      <h2>Clients</h2>
+      <p class="muted">A sampling of creators and brands we’ve supported (placeholders).</p>
+      <div class="clients">
+        <div class="client">Creator A</div><div class="client">Creator B</div><div class="client">Creator C</div><div class="client">Brand D</div><div class="client">Studio E</div><div class="client">Agency F</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <div>
+          <h2>Contact</h2>
+          <p class="muted">Tell us about your content, goals, and timeline. We’ll reply with next steps within 24 hours.</p>
+          <form action="https://formsubmit.co/contact@clip4pump.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New inquiry from clip4pump.com">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="/thanks.html">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+              <div><label class="muted" for="name">Name</label><input id="name" name="name" required placeholder="Your name"></div>
+              <div><label class="muted" for="email">Email</label><input id="email" name="email" type="email" required placeholder="you@email.com"></div>
+            </div>
+            <div style="margin-top:12px"><label class="muted" for="message">What do you need?</label><textarea id="message" name="message" required placeholder="e.g., 10 clips/week across TikTok & Shorts"></textarea></div>
+            <div style="display:flex;gap:10px;align-items:center;margin-top:12px">
+              <button class="btn" type="submit">Send</button>
+              <span class="muted">You’ll see a success page after sending.</span>
+            </div>
+          </form>
+        </div>
+        <div>
+          <div class="card"><h3>Stay in touch</h3><p class="muted">Follow for updates and examples.</p>
+            <p><a class="link" href="https://x.com/clip4pump" target="_blank" rel="noopener">X (Twitter) @clip4pump</a></p>
+            <p><a class="link" href="https://discord.gg/clip4pump" target="_blank" rel="noopener">Join the Discord</a></p>
+            <p><a class="link" href="mailto:contact@clip4pump.com">contact@clip4pump.com</a></p>
+          </div>
+          <div class="card" style="margin-top:12px"><h3>Upload guide</h3><p class="muted">We’ll share a drive link after onboarding. Supported formats: MP4, MOV, MKV, WAV, AIFF, PNG, PSD.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div class="muted">© <span id="year"></span> Clip 4 Pump</div>
+      <div style="display:flex;gap:14px">
+        <a class="link muted" href="#home">Home</a><a class="link muted" href="#about">About</a><a class="link muted" href="#features">Features</a><a class="link muted" href="#clients">Clients</a><a class="link muted" href="#contact">Contact</a><a class="link muted" href="https://discord.gg/clip4pump" target="_blank" rel="noopener">Discord</a>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{const id=a.getAttribute('href').slice(1);const el=document.getElementById(id);if(el){e.preventDefault();window.scrollTo({top:el.offsetTop-70,behavior:'smooth'})}})});</script>
+</body>
+</html>
